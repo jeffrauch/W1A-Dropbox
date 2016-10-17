@@ -23,7 +23,7 @@ class SignInViewController: UIViewController {
     
     
     @IBAction func didPressWelcomeBtn(_ sender: AnyObject) {
-        navigationController!.popViewController(animated: true)
+        navigationController!.popViewController(animated: false)
     }
     
 

@@ -15,6 +15,7 @@ class CreateAccountViewController: UIViewController {
     let weakImage3 = UIImage(named: "signup_3")
     let weakImage4 = UIImage(named: "signup_4")
     
+
     @IBOutlet weak var createButton: UIButton!
     @IBOutlet weak var passwordStrength: UIImageView!
     @IBOutlet weak var passwordTextInput: UITextField!
@@ -39,13 +40,11 @@ class CreateAccountViewController: UIViewController {
             }
     
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
         passwordStrength.image = weakImage
         createButton.setTitleColor(UIColor(red:0.77, green:0.78, blue:0.78, alpha:1.0) , for: .normal)
-        
 
     }
 
@@ -57,6 +56,10 @@ class CreateAccountViewController: UIViewController {
     
     @IBAction func didPressWelcomeBtn(_ sender: AnyObject) {
         navigationController!.popViewController(animated: true)
+    }
+    
+    @IBAction func didTap(_ sender: AnyObject) {
+        view.endEditing(true)
     }
     
 

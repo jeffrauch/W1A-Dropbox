@@ -20,6 +20,7 @@
 		303877DF1DB4403F00AB3AC4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303877DE1DB4403F00AB3AC4 /* SignInViewController.swift */; };
 		303877E11DB443C300AB3AC4 /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303877E01DB443C300AB3AC4 /* TermsOfServiceViewController.swift */; };
 		303877E31DB44BA100AB3AC4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303877E21DB44BA100AB3AC4 /* SettingsViewController.swift */; };
+		303877E51DB4861E00AB3AC4 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303877E41DB4861E00AB3AC4 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		303877DE1DB4403F00AB3AC4 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		303877E01DB443C300AB3AC4 /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
 		303877E21DB44BA100AB3AC4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		303877E41DB4861E00AB3AC4 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				303877DE1DB4403F00AB3AC4 /* SignInViewController.swift */,
 				303877E01DB443C300AB3AC4 /* TermsOfServiceViewController.swift */,
 				303877E21DB44BA100AB3AC4 /* SettingsViewController.swift */,
+				303877E41DB4861E00AB3AC4 /* ForgotPasswordViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				303877DF1DB4403F00AB3AC4 /* SignInViewController.swift in Sources */,
 				303877D91DB43F8000AB3AC4 /* CreateAccountRootViewController.swift in Sources */,
 				303877E11DB443C300AB3AC4 /* TermsOfServiceViewController.swift in Sources */,
+				303877E51DB4861E00AB3AC4 /* ForgotPasswordViewController.swift in Sources */,
 				303877A61DB4321A00AB3AC4 /* ViewController.swift in Sources */,
 				303877A41DB4321A00AB3AC4 /* AppDelegate.swift in Sources */,
 				303877E31DB44BA100AB3AC4 /* SettingsViewController.swift in Sources */,
@@ -535,6 +539,7 @@
 				303877CA1DB4321A00AB3AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		303877CB1DB4321A00AB3AC4 /* Build configuration list for PBXNativeTarget "W1A DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +548,7 @@
 				303877CD1DB4321A00AB3AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		303877CE1DB4321A00AB3AC4 /* Build configuration list for PBXNativeTarget "W1A DropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +557,7 @@
 				303877D01DB4321A00AB3AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
