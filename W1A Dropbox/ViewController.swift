@@ -8,17 +8,42 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIScrollViewDelegate {
 
+    @IBOutlet weak var introScrollView: UIScrollView!
+    
+    @IBOutlet weak var pageControl: UIPageControl!
+    
+
+    func scrollViewDidEndDecelerating(_ introScrollView: UIScrollView) {
+        
+        // Get the current page based on the scroll offset
+        let page : Int = Int(round(introScrollView.contentOffset.x / 375))
+        
+        // Set the current page, so the dots will update
+        pageControl.currentPage = page
+
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        
+        introScrollView.contentSize = CGSize(width: 1125, height: 667)
+        introScrollView.delegate = self
+        
+        pageControl.numberOfPages = 3
 
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+   
 
 
 }
