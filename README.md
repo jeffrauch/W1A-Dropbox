@@ -30,12 +30,12 @@ Time spent: `6`
 
 #### The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Changed the "Create" button on Signup to Blue Color when minimum password characters are inputted.
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. Knowing where in the code of a view controller to enter certain snippets from the assignment instructions.
+2. Whether there is a way to control several storyboards with a single view controller.
 
 ### Video Walkthrough 
 
@@ -49,4 +49,4 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-* Any libraries or borrowed content.
+* Had a lot of issues getting the pagination dots to link up to the scrollview. I ended up having to play around with where the code was in the structure of the view controller.
