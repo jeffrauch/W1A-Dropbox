@@ -186,7 +186,7 @@
                                 <state key="normal" title="Create"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="98D-nr-d9z" appends="YES" id="Nps-dZ-PD2"/>
-                                    <segue destination="qEE-L7-A2G" kind="push" animates="NO" id="KNW-It-q3J"/>
+                                    <segue destination="qEE-L7-A2G" kind="push" animates="NO" id="cmj-FN-DpK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -436,7 +436,7 @@
                                         <rect key="frame" x="0.0" y="747" width="375" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="a9q-vv-UHQ" kind="modal" animates="NO" id="jrJ-d9-m82"/>
+                                            <segue destination="0Tb-pd-cZ2" kind="modal" animates="NO" id="2ep-e1-TQN"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -705,7 +705,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LCn-il-Itd">
-                                        <rect key="frame" x="0.0" y="751" width="375" height="52"/>
+                                        <rect key="frame" x="0.0" y="749" width="375" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <segue destination="a9q-vv-UHQ" kind="modal" animates="NO" id="Rzg-ZX-v2V"/>
@@ -910,9 +910,10 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="lfk-Tk-3o6"/>
-        <segue reference="jrJ-d9-m82"/>
-        <segue reference="RXY-se-WX2"/>
+        <segue reference="tjz-hl-8o4"/>
+        <segue reference="2ep-e1-TQN"/>
+        <segue reference="Dhx-nI-np8"/>
         <segue reference="OBv-fw-AVC"/>
+        <segue reference="Rzg-ZX-v2V"/>
     </inferredMetricsTieBreakers>
 </document>
